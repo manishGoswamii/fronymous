@@ -174,7 +174,7 @@
 }
 
                         /* EOS */
-.main_div
+#main_div
 {
     display: flex;
     flex-direction: column;
@@ -443,6 +443,7 @@
     width:90px;
     height:90px;
 }
+                        /* EOS 4 */
 
 #fifth_section
 {
@@ -489,3 +490,155 @@
     width:200px;
 }
 
+                    /* EOS 5 */
+#sixth_section
+{
+    align-self: center;
+    width:1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:550px;
+
+}
+#sixth_section #horizontal_line
+{
+    border:2px solid black;
+}
+#sixth_section #articles_section 
+{   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:400px;
+}
+
+#sixth_section #articles_section .article_image
+{
+    width:150px;
+    height:150px;
+}
+
+#sixth_section #articles_section .article_section_lines
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+#sixth_section #articles_section .all_articles
+{
+    display:flex;
+    width:50%;
+    justify-content: space-evenly;
+}
+#sixth_section #articles_section .article_information
+{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    justify-content: space-evenly;
+    height:100%;
+
+}
+
+#sixth_section #articles_section .title
+{
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+
+#sixth_section #articles_section .content
+{
+    font-size:1.1rem;
+}
+
+#sixth_section #read_more_articles
+{
+    align-self: flex-end;    
+
+}
+#sixth_section #btn_read_more
+{
+    font-size:1.8rem;
+    background-color: black;
+    color:#b9c6f3;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height:50px;
+    width:400px;
+}
+/* MAKE SURE IF you are applying style to the element or container.
+The element did not move when applied align-self:flex-end.
+But accepted only the container holding it. */
+
+
+                        /* EOS 6   */
+
+#seventh_section
+{
+    width:1100px;
+    align-self: center;
+    display: flex;
+}
+
+#seventh_section #logo_and_name
+{
+    width:50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:3rem;
+    font-family: samarkan,'Times New Roman', Times, serif;
+}
+
+#seventh_section #logo_and_name #name #mous
+{
+    color:#b9c6f3;
+}
+
+#logo_and_name img
+{
+    width:280px;
+    height:290px;
+}
+
+#seventh_section .img_social_media
+{
+    width:80px;
+    height:80px;
+    border:0px solid black;
+}
+
+#seventh_section #social_media
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:30%;
+}
+                            /* EOS 7 */
+
+#footer
+{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    height:130px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#footer .footer_text
+{
+    color:white;
+    font-size: 1.5rem;
+}
+
+#footer #footer_strip
+{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+
+}
+                /* EOS Footer    */
