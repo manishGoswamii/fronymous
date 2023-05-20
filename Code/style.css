@@ -1,0 +1,491 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border:0px solid red;
+
+
+}
+.header_main_div
+{
+    display:flex;
+    justify-content: space-between;
+    font-size:1.2rem;
+    margin:15px;
+    
+}
+.site_name
+{   display:flex;
+    flex-grow:1;
+    align-items:center;
+    justify-content: center;
+     /* works horizontally */
+    font-family:'Samarkan';
+    font-size:2rem;
+
+
+   
+}
+.site_name>.first_name
+{
+    font-family:'Samarkan';
+    color:#82adc9;
+}
+.navigation_bar
+{
+    display:flex;
+    
+    justify-content:space-evenly;
+    align-items: center; 
+    /* works vertically */
+    flex-grow:1;
+}
+.login_signup
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow:1;
+   
+}
+
+                        /*EOS*/
+
+.header_strip
+{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color: black;
+    color:white;
+
+}
+
+.header_strip>.slogan
+{
+    display: flex;
+    font-size:1.4rem;
+    flex-direction: column;    
+}
+
+.header_strip>.slogan>.second_line
+{
+    color:#82adc9;
+}
+
+.header_strip>.mind_picture>img
+{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    
+}
+
+
+.header_strip>.info
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-grow: 0.2;
+}
+
+                        /* EOS */
+
+.first_section>.first_article img
+{
+    width:600px;
+    height:400px;
+}
+
+.first_section>.second_article img
+{
+    width:250px;
+    height:170px;
+}
+
+.first_section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;  
+    margin:5px;
+
+}
+.first_section .first_article .article_info
+{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.first_section .first_article .article_info .title
+{
+    color:#b9c6f3;
+    
+    
+}
+.first_section .first_article .article_info .author_name
+{
+    font-size: 1.4rem;
+    font-weight: bold;
+    align-self: center;
+    
+
+}
+
+.second_article .box
+{
+    background-color: #b9c6f3;
+    width:300px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+}
+
+.second_article .box .article_info
+{
+    display:flex;
+    flex-direction: column;
+    font-size:1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow:0.3;
+    text-align:center;
+   
+    
+}
+
+.first_section button
+{
+    font-size:1.5rem;
+    font-style: italic;
+    font-weight: bold;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+                        /* EOS */
+.main_div
+{
+    display: flex;
+    flex-direction: column;
+}
+.second_section
+{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    align-self:center;
+}
+.heading
+{
+    font-size:1.5rem;
+    align-self: flex-start;
+}
+
+.second_section .blue_container img
+{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+
+}
+.second_section .blue_container
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+
+}
+
+.second_section .blue_container .first
+{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    font-size:1.5rem;
+    width:400px;
+    height:250px;
+    background-color: #b9c6f3;
+    text-align: start;
+    border:0px dotted black;
+
+
+
+    /* MF */
+}
+.second_section .blue_container .first .text
+{
+    padding-left:20px;
+
+
+}
+.second_section .blue_container .sub_divison
+{
+    width:250px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9c6f3;
+    border:0px dotted black;
+
+}
+
+.second_section .blue_container .first button
+{
+    font-size:1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: black;
+    color:#b9c6f3;
+}
+
+                    /* EOS */
+
+.below_blue_container
+{
+    display: grid;
+    grid-template-columns: 45% 35% 20%;
+
+
+}
+.below_blue_container .img_diseases img
+{
+    width:500px;
+    height:500px;   
+}
+
+.below_blue_container .img_looking img
+{
+    width:200px;
+    height:200px;
+}
+
+.below_blue_container .tag_line
+{
+    
+    font-size:1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    align-self: center;
+    justify-self: center;
+    
+    
+}
+.below_blue_container .tag_line .second_line
+{
+    background-color: black;
+    color:white;
+    font-style:normal;
+}
+.below_blue_container .img_looking 
+{
+   align-self: end;
+   justify-self: end;
+}
+
+            /* EOS */
+
+.third_section
+{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+
+}
+
+.third_section .heading_content
+{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.third_section img
+{
+    width:1100px;
+    height:680px;
+}
+
+
+.third_section .line hr
+{
+    border: 1px solid black;
+} 
+
+.sub_section
+{
+    margin-top:80px;
+}
+
+                    /* EOS */
+
+
+/* giving one element flex start and one flex end does not work for that we have the space between property you stupid asshole !!!!!! Wasted 2 hours on it. */
+
+#fourth_section
+{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    width:1100px;
+}
+
+#fourth_section #blue_box
+{
+    
+    width:1100px;
+    background-color: #b9c6f3;
+    height:400px;
+    border:1px dotted black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fourth_section #blue_box .doctor .name
+{
+    font-weight: bold;
+
+}
+
+#fourth_section #blue_box .doctor .about_doctor
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#fourth_section #blue_box .list
+{
+    width:550px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+#fourth_section #blue_box #list2
+{
+    font-size:1.7rem;
+    font-weight: bolder;
+    align-self: flex-end;
+    text-align: center;
+    width:500px;
+    
+} 
+#fourth_section #blue_box #list3
+{
+    justify-content: space-between;
+    width:inherit;
+    align-items: center;
+
+}
+#fourth_section #blue_box #list3 #part1
+{
+    display: flex;
+    justify-content: space-evenly;
+    width:500px;
+}
+#fourth_section #blue_box #list3 #slogan_hindi
+{
+    font-weight:bolder;
+    font-size: 1.7rem;
+    width:500px;
+    text-align:center;
+    align-self: center;
+}
+/* Single elemewnt in the html can be applied with property like align self and justify self if it is alone in the flex, but with two elements it cannot be done. */
+
+
+#fourth_section #blue_box #fourth_list
+{
+    width:inherit;
+    height:50px;
+    align-items: center;
+}
+
+#fourth_section #blue_box #fourth_list #counting
+{
+    font-size:1.9rem;
+    font-weight: bold;
+}
+#fourth_section #blue_box #fourth_list button
+{
+    font-size:1.5rem;
+    background-color: black;
+    color:#b9c6f3;
+    width:250px;
+    height:50px;
+
+}
+/* #fourth_section  #fourth_list  Now Working on Width*/
+/* #fourth_section #blue_box #fourth_list Working properly */
+
+
+#fourth_section #blue_box .image_doctor
+{
+    width:90px;
+    height:90px;
+}
+
+#fifth_section
+{
+    background-color: black;
+    display: flex;
+    height: 150px;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#fifth_section #fifth_section_container
+{
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fifth_section #blogs_and_books 
+{
+    font-size:1.8rem;
+}
+
+#fifth_section #blogs_and_books #second_line
+{
+    color:#b9c6f3;
+}
+
+#fifth_section #audiobooks
+{
+    font-size:1.6rem;
+}
+
+#fifth_section #btn_visit_now
+{
+    font-size:1.8rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    height:50px;
+    width:200px;
+}
+
